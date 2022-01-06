@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='descrption' content='learning web dev'>
+    <meta name='keywords' content='learning'>
+    <meta name='robots' content='INDEX, FOLLOW'>
+    <link rel='stlylesheet' href='style.css'>
+    <script src='start.js'></script>
+    <title>Document</title>
+</head>
+<body>
+    <h2>Form</h2>
+    <form action="backend.php">
+        <div>
+            <br>
+            <label for="myname">Name:</label>
+            <input type="text" name="myname" id="myname">
+            <br>
+        </div>
+        <div>
+            <br>
+            <label for="myrole">Role:</label>
+            <input type="text" name="myrole" id="myrole">
+            <br>
+        </div>
+        <div>
+            <br>
+            <label for="myemail">email id:</label>
+            <input type="email" name="myemail" id="myemail">
+            <br>
+        </div>
+        <div>
+            <br>
+            <label for="mydate">Birth Date:</label>
+            <input type="date" name="mydate" id="mydate">
+            <br>
+        </div>
+        <div>
+            <br>
+            <label for="mysalary">Salary:</label>
+            <input type="number" name="mysalary" id="mysalary">
+            <br>
+        </div>
+        <div>
+            <br>
+            <label for="mypassord">Password:</label>
+            <input type="password" name="mysalary" id="mypassord">
+            <br>
+        </div>
+        <div>
+            <br>
+            <label for="myeligibility">Eligibility:</label>
+            <input type="checkbox" name="myeligibility" id="myeligibility">
+            <br>
+        </div>
+        <div>
+            <br>
+            Gender: <label for="Male">Male</label>
+            <input type="radio" name="mygender" id="Male">
+            <label for="Female">Female</label>
+            <input type="radio" name="mygender" id="Female">
+            <label for="Other">Other</label>
+            <input type="radio" name="mygender" id="Other">
+            <br>
+        </div>
+        <div>
+            <br>
+            <label for="mylocation">Location:</label>
+            <select name="mylocation" id="mylocation">
+                <option value="Nashik" selected>Nashik</option>
+                <option value="Pune">Pune</option>
+                <option value="Bombay">Bombay</option>
+            </select>
+            <br>
+        </div>
+        <div>
+            <br>
+            <label for="mydesciption">Describe yourself:</label>
+            <br>
+            <textarea name="mydesciption" id="mydesciption" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <br>
+            <input type="submit" value="submit now">
+            <input type="reset" value="reset">
+        </div>
+    </form>
+</body>
+</html>
